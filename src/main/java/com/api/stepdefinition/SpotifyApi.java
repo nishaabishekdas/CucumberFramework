@@ -72,7 +72,7 @@ public class SpotifyApi {
 	public void get_the_access_token_using_from_response(String string) {
 		accessToken = testContext.response.jsonPath().getString("access_token");
 		refreshToken = testContext.response.jsonPath().getString("refresh_token");
-		System.out.println("The access Token is: " + accessToken + "\n" + "The Refresh Token is: " + refreshToken);
+		System.out.println("The access Token parsed: " + accessToken + "\n" + "The Refresh Token parsed: " + refreshToken);
 		System.out.println(testContext.response.toString());
 	}
 
