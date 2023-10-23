@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		,glue = {"com.api.stepdefinition"}
 		,monochrome = true
 		,snippets = SnippetType.CAMELCASE,
-		tags="@regression and @sanity"
+		tags="@SpotifyPlaylist"
 		
 		)
 public class TestRunner {
