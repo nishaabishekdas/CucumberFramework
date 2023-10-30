@@ -39,7 +39,7 @@ public class SpotifyApi {
 		System.out.println("redirectURI:" + PropertiesFile.getProperty("Redirect_URI"));
 		try {
 			encodedUrl = URLEncoder.encode(redirectUri, StandardCharsets.UTF_8.toString());
-			System.out.println(encodedUrl);
+		
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
